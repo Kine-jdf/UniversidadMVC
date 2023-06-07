@@ -1,7 +1,13 @@
+using Microsoft.EntityFrameworkCore;
+using UniversidadMVC.Data;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+builder.Services.AddDbContext<UniversidadDbContext>(option => option.UseSqlServer(builder.Configuration["ConnectionStrings:UniversidadDBConnection"]));
+
+
 
 var app = builder.Build();
 

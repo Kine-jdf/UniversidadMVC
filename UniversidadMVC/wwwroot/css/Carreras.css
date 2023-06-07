@@ -60,17 +60,39 @@ nav a:hover{
 .carreras{
 
     padding-top: 20px;
-    padding-left: 300px;
+    padding-left: 150px;
 }
 .carrera{
 
-    width: 200px;
+    width: 300px;
     height: 200px;
-    background: #aaa;
+    background: #C62100;
     margin-bottom: 20px;
     display:inline-block;
-    
-    
+ 
+}
+
+h1{
+
+    display: flex;
+    justify-content: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.Lorem{
+
+    padding-left: 7px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+button{
+
+    background-color: #F5AB34;
+   
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
 }
 
 /*Mas Info*/

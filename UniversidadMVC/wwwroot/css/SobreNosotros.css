@@ -57,35 +57,45 @@ nav a:hover{
 
 .slider ul{
 
+img{
+
+    
+    width: 800px;
+    height: 500px;
+    margin: 1px auto 0;
+    overflow: hidden;
     display: flex;
     padding: 0;
     width: 400%;
-     
+
     animation: cambio 20s infinite alternate linear;
 }
 
-.slider li{
+h2{
 
-    list-style: none;
-    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #FE5E2A;
+    
 }
 
-.slider img{
+h3{
 
+    display: flex;
+    justify-content: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+    
     width: 100%;
     height: 100%;
 }
 
-@keyframes cambio{
-    0% {margin-left: 0;}
-    20% {margin-left: 0;}
+.Lorem{
 
-    25% {margin-left: -100%;}
-    45% {margin-left: -100%;}
+    padding: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 
-    50% {margin-left: -200%;}
-    70% {margin-left: -200%;}
-    
     75% {margin-left: -300%;}
     100% {margin-left: -300%;}
 }

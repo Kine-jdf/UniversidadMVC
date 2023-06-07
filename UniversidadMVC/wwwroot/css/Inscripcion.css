@@ -61,6 +61,28 @@ h2{
 
     display: flex;
     justify-content: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+    
+}
+
+h3{
+
+    display: flex;
+    justify-content: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #FE5E2A;
+    
+}
+
+
+/*Formulario de Inscripcion*/
+
+.h3_form{
+
+    display: flex;
+    align-items: center;
+    background-color: #C62100;
 
 }
 
@@ -70,7 +92,7 @@ form{
     flex-direction: column;
     justify-content: center;
     width: 300px;
-    padding-left: 630px;
+    padding-left: 620px;
 
 }
 

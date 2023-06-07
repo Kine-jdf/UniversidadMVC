@@ -56,14 +56,23 @@ nav a:hover{
     }
 }
 
+h1{
+
+    display: flex;
+    justify-content: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #FE5E2A;
+    
+}
+
 /*Carrusel (slider automatico)*/
 .slider{
 
-    width: 1000px;
-    height: 500;
-    margin: 50px auto 0;
+    width: 800px;
+    height: 500px;
+    margin: 1px auto 0;
     overflow: hidden;
-
+    
     
 }
 
@@ -73,7 +82,7 @@ nav a:hover{
     padding: 0;
     width: 400%;
      
-    animation: cambio 20s infinite alternate linear;
+    animation: cambio 15s infinite alternate linear;
 }
 
 .slider li{

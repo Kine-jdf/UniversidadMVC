@@ -61,7 +61,30 @@ h2{
 
     display: flex;
     justify-content: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #FE5E2A;
+    
+}
 
+img{
+
+    
+    width: 600px;
+    height: 170px;
+    margin: 1px auto 0;
+    overflow: hidden;
+    display: flex;
+
+}
+
+/*Formulario de Contacto*/
+
+.h3_form{
+
+    display: flex;
+    align-items: center;
+    background-color: #C62100;
+    padding-left: 40px;
 }
 
 form{

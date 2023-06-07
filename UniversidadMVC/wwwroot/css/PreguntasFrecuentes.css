@@ -55,6 +55,22 @@ nav a:hover{
     }
 }
 
+.Lorem_Pregunta{
+
+    padding-left: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #F5AB34;
+
+}
+
+.Lorem_Respuesta{
+
+    padding-left: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #FA660A;
+
+}
+
 
 /*Mas Info*/
 
