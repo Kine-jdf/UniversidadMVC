@@ -10,14 +10,15 @@ namespace UniversidadMVC
     public class Carrera
     {
         [Key]
-        public int id { get; set; }
+        public int Id { get; set; }
 
         public string Nombre { get; set; }
 
-        public virtual List<Materia> Materias { get; set; }   
+
+        public virtual ICollection<Materia> Materias { get; set; }   
         public Carrera() { 
         
-        this.Materias = new List<Materia>();
+      
         }
 
     }

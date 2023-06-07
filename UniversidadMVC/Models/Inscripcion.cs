@@ -10,13 +10,13 @@ namespace UniversidadMVC
     public class Inscripcion
     {
         [Key]
-        public int id { get; set; }
-        public Usuario usuario { get; set; }
+        public int Id { get; set; }
+        public virtual Usuario Usuario { get; set; }
      
-        public virtual List<Materia> materias { get; set; } 
+        public virtual List<Materia> Materias { get; set; } 
         public Inscripcion() { 
         
-        this.materias = new  List<Materia>();
+        
         }    
 
 
