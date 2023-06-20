@@ -11,7 +11,9 @@ namespace UniversidadMVC
     {
         [Key]
         public int Id { get; set; }
+
         public virtual Usuario Usuario { get; set; }
+        
      
         public virtual List<Materia> Materias { get; set; } 
         public Inscripcion() { 

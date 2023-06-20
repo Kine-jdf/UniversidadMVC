@@ -16,7 +16,9 @@ namespace UniversidadMVC
        public string Nombre { get; set; }
         public string Apellido { get; set; }
      
-        public Usuario():base() { }
+        public Usuario():base() {
+            
+        }
     }
 
    

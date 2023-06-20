@@ -12,8 +12,7 @@ namespace UniversidadMVC.Data
 
 
        //protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-       // { //esto hace la conexion con la base de datos, ahora tiene puestos
-          //los datos del profesor xq nos lo paso asi
+     //{
 
 
           //  optionsBuilder.UseSqlServer(@"Server=KINE-ORT;Database=PNT1_Universidad;Trusted_Connection=True;");
