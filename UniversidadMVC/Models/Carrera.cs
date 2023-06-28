@@ -18,7 +18,7 @@ namespace UniversidadMVC
         public virtual ICollection<Materia> Materias { get; set; }   
         public Carrera() { 
         
-      
+      /*esto es un comentario*/
         }
 
     }
